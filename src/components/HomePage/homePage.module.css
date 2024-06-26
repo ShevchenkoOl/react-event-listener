@@ -1,0 +1,45 @@
+/* Основные стили для контейнера */
+.container {
+    background-color: rgb(122, 105, 105);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  /* Стили для заголовка */
+  .title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Основные стили для секции */
+  .section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Основные стили для навигационной ссылки */
+  .nav {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    padding: 10px 20px;
+    border: 1px solid rgb(122, 105, 105);
+    background-color: rgb(122, 105, 105);
+    margin-right: 40px;
+  }
+  
+  .nav:hover,
+  .nav:focus {
+    color: #ff8c00;
+  }
+  
+  /* Стили для активной навигационной ссылки */
+  .activeNav {
+    border-bottom: 2px solid #fff;
+    background-color: rgb(122, 105, 105);
+  }
+  
