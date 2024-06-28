@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to Use the Repository
 
-1. Clone the repository: `git clone https://github.com/ShevchenkoOl/event-istener.git`
+1. Clone the repository: `https://github.com/ShevchenkoOl/react-event-listener.git`
 
 2. use ```npm install``` command to install package dependencies
 
