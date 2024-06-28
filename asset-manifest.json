@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-event-listener/static/css/main.be47228f.css",
-    "main.js": "/react-event-listener/static/js/main.966a2e47.js",
+    "main.css": "/react-event-listener/static/css/main.7882e511.css",
+    "main.js": "/react-event-listener/static/js/main.1f5eb598.js",
     "index.html": "/react-event-listener/index.html",
-    "main.be47228f.css.map": "/react-event-listener/static/css/main.be47228f.css.map",
-    "main.966a2e47.js.map": "/react-event-listener/static/js/main.966a2e47.js.map"
+    "main.7882e511.css.map": "/react-event-listener/static/css/main.7882e511.css.map",
+    "main.1f5eb598.js.map": "/react-event-listener/static/js/main.1f5eb598.js.map"
   },
   "entrypoints": [
-    "static/css/main.be47228f.css",
-    "static/js/main.966a2e47.js"
+    "static/css/main.7882e511.css",
+    "static/js/main.1f5eb598.js"
   ]
 }
