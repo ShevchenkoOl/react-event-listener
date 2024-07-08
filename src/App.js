@@ -15,6 +15,7 @@
 //       <Route path="/classComponent" element={<ClassComponent />} />
 //       <Route path="/feedback" element={<Feedback />} />
 //       <Route path="/contacts" element={<Contacts />} />
+//       {/* <Route path="*" element={<div>Not Found</div>} /> */}
 //     </Routes>
 //   );
 // }
