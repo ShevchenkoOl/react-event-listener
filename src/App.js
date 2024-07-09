@@ -1,5 +1,6 @@
 // import React from 'react';
 // import { Routes, Route } from "react-router-dom";
+// import SwitcherBackground from 'components/SwitcherBackground/SwitcherBackground';
 
 // import Contacts from 'components/Contacts/Contacts';
 // import Feedback from 'components/Feedback/Feedback';
@@ -15,6 +16,7 @@
 //       <Route path="/classComponent" element={<ClassComponent />} />
 //       <Route path="/feedback" element={<Feedback />} />
 //       <Route path="/contacts" element={<Contacts />} />
+//       <Route path="/SwitcherBackground" element={<SwitcherBackground />} /> 
 //       {/* <Route path="*" element={<div>Not Found</div>} /> */}
 //     </Routes>
 //   );
@@ -38,6 +40,7 @@ const Feedback = lazy(() => import('components/Feedback/Feedback'));
 const HomePage = lazy(() => import('components/HomePage/HomePage'));
 const CounterWithHooks = lazy(() => import("./components/CounterWithHooks/CounterWithHooks"));
 const ClassComponent = lazy(() => import("./components/ClassComponent/ClassComponent"));
+const SwitcherBackground = lazy(() => import ('components/SwitcherBackground/SwitcherBackground'));
 
  function App() {
   return (
@@ -48,6 +51,8 @@ const ClassComponent = lazy(() => import("./components/ClassComponent/ClassCompo
       <Route path="/classComponent" element={<ClassComponent />} />
       <Route path="/feedback" element={<Feedback />} />
       <Route path="/contacts" element={<Contacts />} />
+      <Route path="/SwitcherBackground" element={<SwitcherBackground />} />
+      <Route path="*" element={<div>Not Found</div>} />
     </Routes>
    </Suspense>
   );

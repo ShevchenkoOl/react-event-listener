@@ -1,6 +1,6 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import styles from "./homePage.module.css";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import styles from './homePage.module.css';
 
 const HomePage = () => {
   return (
@@ -38,6 +38,14 @@ const HomePage = () => {
           }
         >
           Contacts
+        </NavLink>
+        <NavLink
+          to="/SwitcherBackground"
+          className={({ isActive }) =>
+            isActive ? `${styles.nav} ${styles.activeNav}` : styles.nav
+          }
+        >
+          Switcher Background and Input
         </NavLink>
       </div>
     </div>
