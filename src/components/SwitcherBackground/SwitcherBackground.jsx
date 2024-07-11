@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import HomePage from 'components/HomePage/HomePage';
 
 import styles from './switcher.module.css';
-import { nanoid } from 'nanoid';
+// import { nanoid } from 'nanoid';
 
 const SwitcherBackground = () => {
 //   const [isDisabled, setIsDisabled] = useState(true);
