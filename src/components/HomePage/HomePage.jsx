@@ -47,6 +47,14 @@ const HomePage = () => {
         >
           Switcher Background and Input
         </NavLink>
+        <NavLink
+          to="/Posts"
+          className={({ isActive }) =>
+            isActive ? `${styles.nav} ${styles.activeNav}` : styles.nav
+          }
+        >
+          Posts List
+        </NavLink>
       </div>
     </div>
   );
