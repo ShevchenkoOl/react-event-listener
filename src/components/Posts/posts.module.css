@@ -1,4 +1,17 @@
-.container {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #233eee;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,35 +25,25 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .title {
+  .title, p {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #333;
+    text-align: center;
   }
-  
-  label {
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-  
-  input {
+
+  .input {
     height: 20px;
     width: 350px;
     padding: 8px;
+    margin-bottom: 20px;
   }
-  .list {
+  /* .list {
       list-style: none;
       padding: 0;
       margin: 0;
-    }
+    }*/
     
     .item {
       display: flex;
@@ -56,15 +59,15 @@
       font-size: 18px;
     }
     
-    .buttonGroup {
+   /* .buttonGroup {
       display: flex;
       gap: 10px;
     }
   
   .red-border{
       border: 1px solid red;
-  }
-  
+  }*/
+
   .btn,
   .btnDel {
     background-color: #487eec;
@@ -96,7 +99,7 @@
   }
   
   
-  .modalOverlay {
+  /* .modalOverlay {
       position: fixed;
       top: 0;
       left: 0;
@@ -139,4 +142,4 @@
       font-size: 18px;
       color: #555;
       text-align: center;
-    }
+    } */
