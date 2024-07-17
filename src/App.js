@@ -31,6 +31,7 @@
 
 // Без ленивой загрузки (Suspense): Все компоненты загружаются сразу:
 
+import BookList from 'components/BookList/BookList';
 import Posts from 'components/Posts/Posts';
 import Spinner from 'components/Spinner/Spiner';
 import React, { Suspense, lazy } from 'react';
@@ -54,6 +55,7 @@ const SwitcherBackground = lazy(() => import ('components/SwitcherBackground/Swi
       <Route path="/contacts" element={<Contacts />} />
       <Route path="/SwitcherBackground" element={<SwitcherBackground />} />
       <Route path="/Posts" element={<Posts />} />
+      <Route path="/BookList" element={<BookList />} />
       <Route path="*" element={<div>Not Found</div>} />
     </Routes>
    </Suspense>

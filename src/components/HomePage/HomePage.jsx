@@ -55,6 +55,14 @@ const HomePage = () => {
         >
           Posts List
         </NavLink>
+        <NavLink
+          to="/BookList"
+          className={({ isActive }) =>
+            isActive ? `${styles.nav} ${styles.activeNav}` : styles.nav
+          }
+        >
+          Books List
+        </NavLink>
       </div>
     </div>
   );

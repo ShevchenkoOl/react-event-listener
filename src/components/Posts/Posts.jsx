@@ -27,7 +27,7 @@ const [post, setPost] = useState({name: '', description: ''})// когда у н
   
 const addNewPost = e => {
     e.preventDefault();
-    //console.log(name, body);
+    //console.log(name, description); //выводит наше значение input
     // const newPost = {  // создаем новый объект для записи добавления поста
     //   id: nanoid(), 
     //   name,
