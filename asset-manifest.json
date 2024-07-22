@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-event-listener/static/css/main.b99ffc89.css",
-    "main.js": "/react-event-listener/static/js/main.7d67301c.js",
+    "main.css": "/react-event-listener/static/css/main.0fe60b95.css",
+    "main.js": "/react-event-listener/static/js/main.7c4e3ce6.js",
     "static/css/782.b77fdaf4.chunk.css": "/react-event-listener/static/css/782.b77fdaf4.chunk.css",
     "static/js/782.d7c009ff.chunk.js": "/react-event-listener/static/js/782.d7c009ff.chunk.js",
     "static/css/709.8dbfc412.chunk.css": "/react-event-listener/static/css/709.8dbfc412.chunk.css",
@@ -14,8 +14,8 @@
     "static/js/9.3d6d2780.chunk.js": "/react-event-listener/static/js/9.3d6d2780.chunk.js",
     "static/js/918.e6129ebd.chunk.js": "/react-event-listener/static/js/918.e6129ebd.chunk.js",
     "index.html": "/react-event-listener/index.html",
-    "main.b99ffc89.css.map": "/react-event-listener/static/css/main.b99ffc89.css.map",
-    "main.7d67301c.js.map": "/react-event-listener/static/js/main.7d67301c.js.map",
+    "main.0fe60b95.css.map": "/react-event-listener/static/css/main.0fe60b95.css.map",
+    "main.7c4e3ce6.js.map": "/react-event-listener/static/js/main.7c4e3ce6.js.map",
     "782.b77fdaf4.chunk.css.map": "/react-event-listener/static/css/782.b77fdaf4.chunk.css.map",
     "782.d7c009ff.chunk.js.map": "/react-event-listener/static/js/782.d7c009ff.chunk.js.map",
     "709.8dbfc412.chunk.css.map": "/react-event-listener/static/css/709.8dbfc412.chunk.css.map",
@@ -29,7 +29,7 @@
     "918.e6129ebd.chunk.js.map": "/react-event-listener/static/js/918.e6129ebd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b99ffc89.css",
-    "static/js/main.7d67301c.js"
+    "static/css/main.0fe60b95.css",
+    "static/js/main.7c4e3ce6.js"
   ]
 }
