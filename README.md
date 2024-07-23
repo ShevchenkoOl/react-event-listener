@@ -5,7 +5,10 @@ This project was created for the purpose of practicing using Hooks (```useState`
 ### The project created to practice using an event listener in framework React:
 * Two identical counters, the first uses functional components (hooks - used to control state), the second using a class component (the old method);
 * Feedback is a functional component that has three buttons: Good, Neutral and Bad. After the user leaves rating, a statistics component appears at the bottom that counts the number of reviews left by category, the total and the percentage of positive reviews left;
-* The phone book is a functional component that has two fields for entering a name and phone number; after entering this data, a list of added contacts is created below, which we can delete, view details (a modal window opens) or find the contact we need by name. This project uses the [nanoid](https://www.npmjs.com/package/nanoid) library, which creates an id for each contact and [notiflix](https://notiflix.github.io/notify).
+* The phone book is a functional component that has two fields for entering a name and phone number; after entering this data, a list of added contacts is created below, which we can delete, view details (a modal window opens) or find the contact we need by name. This project uses the [nanoid](https://www.npmjs.com/package/nanoid) library, which creates an id for each contact and [notiflix](https://notiflix.github.io/notify);
+* Background light switch, with two ```Start``` and ```Stop``` buttons. The hooks used are: useEffect, useRef, useState and a random color function;
+* The list of posts consists of two input fields (name and body of the post), after adding a post, a list of added posts is created below? which can be edited with the ```Delete``` button;
+* Book list is a functional component that has two fields for entering the name and author of the book (they open as a modal window when you click the ```Create book list``` button); after entering this data, a list of added books is created below, which we can sort (by title or author) or delete. The project uses hooks: useState, useMemo, and also created its own hooks for code readability.
 
 ## How to Use the Repository
 
