@@ -1,5 +1,5 @@
 # Event Listener
-This project was created for the purpose of practicing using Hooks (```useState```, ```useEffect```, ```useRef```). It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), uses routing [React Router](https://reactrouter.com/en/main), uses "lazy loading"
+This project was created for the purpose of practicing using Hooks (```useState```, ```useEffect```, ```useRef```, ```useMemo```). It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), uses routing [React Router](https://reactrouter.com/en/main), uses "lazy loading"
 ```Suspense``` and ```React.lazy```and has been added the spinner from the [React Spinners](https://mhnpd.github.io/react-loader-spinner/) library.
 
 ### The project created to practice using an event listener in framework React:
