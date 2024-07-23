@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-event-listener/static/css/main.0fe60b95.css",
-    "main.js": "/react-event-listener/static/js/main.839a11c9.js",
+    "main.js": "/react-event-listener/static/js/main.420f79f9.js",
     "static/css/782.b77fdaf4.chunk.css": "/react-event-listener/static/css/782.b77fdaf4.chunk.css",
     "static/js/782.d7c009ff.chunk.js": "/react-event-listener/static/js/782.d7c009ff.chunk.js",
     "static/css/709.8dbfc412.chunk.css": "/react-event-listener/static/css/709.8dbfc412.chunk.css",
@@ -15,7 +15,7 @@
     "static/js/918.e6129ebd.chunk.js": "/react-event-listener/static/js/918.e6129ebd.chunk.js",
     "index.html": "/react-event-listener/index.html",
     "main.0fe60b95.css.map": "/react-event-listener/static/css/main.0fe60b95.css.map",
-    "main.839a11c9.js.map": "/react-event-listener/static/js/main.839a11c9.js.map",
+    "main.420f79f9.js.map": "/react-event-listener/static/js/main.420f79f9.js.map",
     "782.b77fdaf4.chunk.css.map": "/react-event-listener/static/css/782.b77fdaf4.chunk.css.map",
     "782.d7c009ff.chunk.js.map": "/react-event-listener/static/js/782.d7c009ff.chunk.js.map",
     "709.8dbfc412.chunk.css.map": "/react-event-listener/static/css/709.8dbfc412.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.0fe60b95.css",
-    "static/js/main.839a11c9.js"
+    "static/js/main.420f79f9.js"
   ]
 }
