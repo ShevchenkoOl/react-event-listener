@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import HomePage from 'components/HomePage/HomePage';
 import PostItem from './PostItem';
 import { nanoid } from 'nanoid';
 
 import styles from './posts.module.css';
+import PostService from './API/postsService';
 
 const Posts = () => {
   const [posts, setPosts] = useState([]);  //если мы хотим чтобы изначально наш список был пуст, передаем начальное состояние как пустою масив 
@@ -24,7 +25,20 @@ const Posts = () => {
 //   const [description, setDescription] = useState('');
 
 const [post, setPost] = useState({name: '', description: ''})// когда у нас используется много полей input, нам лучше создать одно состояние для всех полей
-  
+const [isPostLoading, setIsPostLoading] = useState(false); //состояние для обработки запросов, то есть спиннер
+
+useEffect(()=>{   //принимает два параметра, 1 это callback функция, 2 - массив зависимости (то есть при какот состоянии будет срабатывать useEffect) 
+  fetchPosts()
+  }, [])   // если нам нужно единажды при загрузки страницы, тогда массив будет пустой
+
+
+const fetchPosts = async() => {
+  setIsPostLoading(true); //когда запрос начинает обрабатываться спиннер - true
+  const posts = await PostService.getAll();
+  setPosts(posts);
+  setIsPostLoading(false); //когда запрос закончил обработку спиннер - false 
+};
+
 const addNewPost = e => {
     e.preventDefault();
     //console.log(name, description); //выводит наше значение input
@@ -73,11 +87,20 @@ const addNewPost = e => {
         <button className={styles.btn} type="submit" onClick={addNewPost}>
           Create new post
         </button>
+        <button className={styles.btn} type='button' onClick={fetchPosts}>
+          Get posts
+        </button>
       </form>
-      {posts.length > 0 ? (
-        posts.map((post, index) => <PostItem post={post} number={index+1} key={post.id} remove={removePost}/>)
+      {isPostLoading ? (
+        <h1>Loading...</h1>
       ) : (
-        <p>No posts available</p>
+        posts.length > 0 ? (
+          posts.map((post, index) => (
+            <PostItem post={post} number={index + 1} key={post.id} remove={removePost} />
+          ))
+        ) : (
+          <p>No posts available</p>
+        )
       )}
     </div>
   );

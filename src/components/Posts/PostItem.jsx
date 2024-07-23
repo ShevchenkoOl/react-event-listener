@@ -6,8 +6,8 @@ const PostItem = ({post, number, remove}) => {
     
     return (
         <div className={styles.container} id={post.id}>
-        <h2 className={styles.item}>{number}. {post.name}</h2>
-        <span>{post.description}</span>
+        <h2 className={styles.item}>{number}. {post.title}</h2>
+        <span>{post.body}</span>
         <button className={styles.btnDel} onClick={()=> remove(post.id)}>Delete</button>
         </div>
     )
